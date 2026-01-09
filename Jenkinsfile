@@ -3,6 +3,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                // added a comment
                 echo "Webhook triggered build!"
             }
         }
